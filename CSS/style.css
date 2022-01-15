@@ -1,0 +1,62 @@
+header { 
+    background-image: url(../images/flowers.jpg);
+    height: 300px;
+    padding: 3%;
+    margin: 3%;
+    color: #fff;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 2px 2px #ee9dbf;
+    width: 55%;
+    margin: auto;
+
+}
+
+.ul {
+    font-size: 20px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+    Margin: 0auto;
+    padding: 0px;
+    display: inline;
+    overflow: hidden;
+} 
+a:link {
+    color: #ee9dbf
+
+}
+
+a:visited {
+    color: #ff006a;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 2px 2px #fff;
+    border-bottom: 5px solid  #ee9dbf;
+}
+
+section {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img {
+    border-radius: 8px;
+
+}
