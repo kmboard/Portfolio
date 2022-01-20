@@ -48,44 +48,14 @@ section {
 
 }
 
-/*.flex.box {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-*/
-
 .row {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-}
 
+}
 
 .img {
     border-radius: 8px;
 
 }
 
-
-@media screen and (max-width: 480px) { 
-header  {
-    width: 30%;
-}
-.img {
-    width: 30%
-}
-
-}
-    
-@media screen and (min-width: 481px) and (max-width: 769px) {
-    header {
-        width: 50%;
-    }
-    .img {
-        width: 50%
-    }
-
-}

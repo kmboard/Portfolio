@@ -5,7 +5,7 @@ The first take on my portfolio. A displaying what i have learned thus far about 
 
 Visuals
 
-
+/.images.screen-shot.jpg
 
 License
 
