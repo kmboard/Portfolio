@@ -48,15 +48,64 @@ section {
 
 }
 
-.flex-container {
-    display: flex;
-    flex-flow: row wrap;
+.wrapper {
+    display: grid;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+    grid-template: 
+        [row1-start] "item1 item1 item1 item1" [row1-end]
+        [row2-start] "item2 item2 item3 item3" [row2-end]
+        [row3-start] "item4 item4 item5 item5" [row3-end]
 }
 
-img {
+.item1{
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+    grid-row-start: 2;
+}
+
+.item3{
+    grid-area: item3;
+    grid-row-start: 2;
+}
+
+.item4{
+    grid-area: item4;
+    grid-row-start: 3;
+}
+
+.item5 {
+    grid-area: item5;
+    grid-row-start: 3;
+}
+
+
+.img {
     border-radius: 8px;
+
+}
+
+
+@media screen and (max-width: 480px) { 
+header  {
+    width: 30%;
+}
+.img {
+    width: 30%
+}
+
+}
+    
+@media screen and (min-width: 481px) and (max-width: 769px) {
+    header {
+        width: 50%;
+    }
+    .img {
+        width: 50%
+    }
 
 }
