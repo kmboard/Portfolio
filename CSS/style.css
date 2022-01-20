@@ -48,39 +48,19 @@ section {
 
 }
 
-.wrapper {
+/*.flex.box {
     display: grid;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    grid-template: 
-        [row1-start] "item1 item1 item1 item1" [row1-end]
-        [row2-start] "item2 item2 item3 item3" [row2-end]
-        [row3-start] "item4 item4 item5 item5" [row3-end]
 }
 
-.item1{
-    grid-area: item1;
-}
+*/
 
-.item2 {
-    grid-area: item2;
-    grid-row-start: 2;
-}
-
-.item3{
-    grid-area: item3;
-    grid-row-start: 2;
-}
-
-.item4{
-    grid-area: item4;
-    grid-row-start: 3;
-}
-
-.item5 {
-    grid-area: item5;
-    grid-row-start: 3;
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 
